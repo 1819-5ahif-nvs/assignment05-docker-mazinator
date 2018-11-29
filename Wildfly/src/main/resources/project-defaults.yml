@@ -1,0 +1,8 @@
+swarm:
+  datasources:
+    data-sources:
+      pupilDS:
+        driver-name: mysql
+        connection-url: jdbc:mysql://mysql/myDB
+        user-name: root
+        password: root
