@@ -3,7 +3,7 @@
 maxcounter=60
  
 counter=1
-while ! mysql -h mysql -u"root" -p"$MYSQL_ROOT_PASSWORD" -e "show databases;"; do
+while ! mysql -h mysql -u"root" -p"passme" -e "show databases;"; do
     echo "waiting for Godot..."
     sleep 1
     counter=`expr $counter + 1`

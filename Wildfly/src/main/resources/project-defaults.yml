@@ -1,8 +1,8 @@
 swarm:
   datasources:
     data-sources:
-      pupilDS:
+      PetDS:
         driver-name: mysql
-        connection-url: jdbc:mysql://mysql/myDB
+        connection-url: jdbc:mysql://mysql/PetDB
         user-name: root
-        password: root
+        password: passme
