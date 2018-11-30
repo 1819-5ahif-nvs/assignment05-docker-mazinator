@@ -1,1 +1,1 @@
-create database myDB;
+create database PetDS;
